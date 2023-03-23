@@ -1,0 +1,35 @@
+.education {
+    margin-top: 10%;
+}
+
+.education h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #bd5d38;
+    margin-bottom: 1rem;
+}
+
+.education .sub-education {
+    display: flex;
+}
+
+.education .sub-education h5 {
+    color: #bd5d38;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.education .sub-education .infor-education {
+    float: right;
+    margin-left: 2rem;
+}
+
+.education .logo-uda {
+    margin-bottom: 1rem;
+}
+
+.education .sub-education .infor-education p {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}

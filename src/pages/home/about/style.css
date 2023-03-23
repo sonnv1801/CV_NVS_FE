@@ -1,0 +1,85 @@
+.about {
+    margin-top: 10%;
+}
+
+.about .sub-about-infor .infor {
+    /* display: flex; */
+}
+
+.about .sub-about-infor .infor h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #bd5d38;
+    /* opacity: 0.8; */
+}
+
+.about .sub-about-infor h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #bd5d38;
+    font-weight: 700;
+}
+
+.about .sub-about-infor ul {
+    /* display: flex; */
+    padding: 0;
+    margin: 0;
+}
+
+.about .sub-about-infor ul li {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.about .sub-about-infor ul li b {
+    color: #bd5d38;
+    opacity: 0.7;
+}
+
+.about .sub-about-infor ul li p {
+    color: #bd5d38;
+    margin-left: 0.7rem;
+}
+
+.about .sub-about-sumary {
+    margin-top: 2rem;
+}
+
+.about .sub-about-sumary p {
+    color: black;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+
+.about .sub-about-infor ul li p a {
+    text-decoration: none;
+    color: #bd5d38;
+}
+
+.about .sub-about-infor ul li p a:hover {
+    text-decoration: underline;
+
+}
+
+.about .sub-about-contact {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.about .sub-about-contact .contact-me {
+    margin-left: 1rem;
+    background: gray;
+    padding: 1.1rem;
+    border-radius: 50%;
+}
+
+.about .sub-about-contact .contact-me:hover {
+    background: #bd5d38;
+}
+
+.about .sub-about-contact .contact-me svg {
+    color: white;
+    font-size: 2rem;
+}

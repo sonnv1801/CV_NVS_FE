@@ -1,0 +1,22 @@
+.skills {
+    margin-top: 10%;
+}
+
+.skills h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #bd5d38;
+}
+
+.skills .sub-skills p {
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #bd5d38;
+}
+
+.skills .sub-skills ul li {
+    list-style-type: disclosure-closed;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #bd5d38;
+}

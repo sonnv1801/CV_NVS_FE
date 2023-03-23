@@ -1,0 +1,58 @@
+.experience {
+    margin-top: 5%;
+}
+
+.experience h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #bd5d38;
+}
+
+.experience .container-exp {
+    margin-top: 5%;
+}
+
+.experience .sub-experience-title h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #bd5d38;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.experience .sub-experience-title h1 img {
+    width: 10%;
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
+
+.experience .sub-experience-title p {
+    color: #bd5d38;
+    opacity: 0.8;
+}
+
+.experience .sub-experience p {
+    color: black;
+    font-size: 1.4rem;
+    letter-spacing: 0.8px;
+    opacity: 0.9;
+    text-align: justify;
+}
+
+
+.experience .sub-experience-link b {
+    color: #bd5d38;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.experience .sub-experience-link b a {
+    margin-left: 0.4rem;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.experience .sub-experience-link b a:hover {
+    text-decoration: underline;
+}

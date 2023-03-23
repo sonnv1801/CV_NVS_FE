@@ -1,0 +1,30 @@
+.awards {
+    margin-top: 10%;
+}
+
+.awards h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #bd5d38;
+}
+
+.awards .sub-awards {
+    margin-top: 1rem;
+}
+
+.awards .sub-awards ul {
+    list-style-type: none;
+}
+
+.awards .sub-awards ul li i {
+    color: orange;
+    margin-right: 0.6rem;
+
+}
+
+.awards .sub-awards ul li {
+    line-height: 40px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #bd5d38;
+}

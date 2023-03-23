@@ -1,0 +1,35 @@
+.interests {
+    margin-top: 10%;
+}
+
+.interests h1 {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #bd5d38;
+}
+
+.interests .sub-interests {
+    margin-top: 1rem;
+
+}
+
+.interests .sub-interests ul {
+    display: flex;
+}
+
+
+.interests .sub-interests ul li {
+    list-style-type: none;
+    padding: 1rem;
+    border: 1px solid #bd5d38;
+    margin: 1rem;
+    border-radius: 10%;
+    text-transform: uppercase;
+    color: #bd5d38;
+}
+
+.interests .sub-interests ul li:hover {
+    background: #bd5d38;
+    color: white;
+    cursor: pointer;
+}
