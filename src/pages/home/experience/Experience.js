@@ -24,19 +24,35 @@ export const Experience = () => {
         <div className="sub-experience md-experience">
           <p>
             Internship at TMA Binh Dinh Company for 3 months. Learn some
-            knowledge like Reactjs, Redux, Nodejs, and Mongoose. Use some
+            knowledge like Reactjs, Redux, Nodejs, and MongoDB. Use some
             Material Ui, Bootstrap & Cloudinary libraries. And did a project to
             sell phones, applying the above knowledge
+            <br />
+            <b>Member:</b> 2 <br />
+            <b>Technical</b>: ReactJS, MongoDB, NodeJS <br />
+            <b>Role:</b> Fullstacks <br />
+            <b>Task:</b>
+            <ul>
+              <li>Write DocAPI, draw Mock UI & Design database</li>
+              <li>
+                <b> UI:</b> Home page, shop, product details, cart, payment,
+                invoice
+              </li>
+              <li>
+                <b>API:</b> CRUD users, banners, type-products, products,
+                comments, orders
+              </li>
+            </ul>
           </p>
         </div>
         <div className="sub-experience-link">
           <b>
-            Link Product:{' '}
+            Product link:
             <a href="https://maizoshop.vercel.app">Maizo - Shop</a>
           </b>
           <b>
-            Link GitHub:
-            <a href="https://github.com/sonnv1801/FinalProject-Inter-TMA/tree/develop">
+            Source code:
+            <a href="https://github.com/sonnv1801/FinalProject-Inter-TMA.git">
               Git Maizo - Shop
             </a>
           </b>

@@ -57,14 +57,15 @@ export default function Menu() {
 
   return (
     <>
+      <div style={{ marginTop: '43px' }} id="menu-md-xl"></div>
       <nav
         id="menu-md-xl"
-        class="navbar"
+        className="navbar nav-sm"
         data-bs-theme="dark"
         style={{ background: '#bd5d38' }}
       >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#!">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#!">
             <div className="avatar">
               <Avatar
                 alt="Avatar"
@@ -75,7 +76,7 @@ export default function Menu() {
             </div>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -88,9 +89,9 @@ export default function Menu() {
               <MenuIcon style={{ color: 'white' }} />
             </span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
                 <Tabs
                   className="menu-sm"
                   orientation="vertical"

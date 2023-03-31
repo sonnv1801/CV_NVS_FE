@@ -1,74 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 * {
-    font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif;
+}
+
+.nav-sm {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 
 #menu-md-xl {
-    display: none;
+  display: none;
 }
 
 .menu-sm {
-    /* background: #bd5d38; */
+  /* background: #bd5d38; */
 }
 
 .menu-cv button {
-    color: white !important;
+  color: white !important;
 }
 
 .menu-cv {
-    background: #bd5d38;
+  background: #bd5d38;
 }
 
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
-    color: #ff4800 !important;
+  color: #ff4800 !important;
 }
 
 .menu-cv .sub-menu-cv {
-    height: 100vh;
+  height: 100vh;
 }
 
 .menu-cv .sub-menu-cv button {
-    color: white;
-    /* opacity: 0.7; */
-    font-weight: 800;
-    letter-spacing: 0.05rem;
-    text-transform: uppercase;
+  color: white;
+  /* opacity: 0.7; */
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
 }
 
 .menu-cv .sub-menu-cv button:hover {
-    color: #ff4800;
-    opacity: 0.6;
+  color: #ff4800;
+  opacity: 0.6;
 }
 
 .menu-cv .sub-menu-cv button span {
-    color: white !important;
+  color: white !important;
 }
 
 .menu-cv .avatar {
-    padding: 2rem;
-    /* margin-top: 10rem; */
+  padding: 2rem;
+  /* margin-top: 10rem; */
 }
 
 .avatar .sub-avatar {
-    border: 0.2rem solid rgb(6 230 17 / 20%);
-    transform-origin: center;
-    animation: blink 1.2s infinite;
+  border: 0.2rem solid rgb(6 230 17 / 20%);
+  transform-origin: center;
+  animation: blink 1.2s infinite;
 }
 
 @keyframes blink {
-    0% {
-        border-color: rgb(6, 230, 17);
-        /* Màu viền ban đầu */
-    }
+  0% {
+    border-color: rgb(6, 230, 17);
+    /* Màu viền ban đầu */
+  }
 
-    50% {
-        border-color: rgba(255, 153, 0, 0.992);
-        /* Màu viền trong suốt */
-    }
+  50% {
+    border-color: rgba(255, 153, 0, 0.992);
+    /* Màu viền trong suốt */
+  }
 
-    100% {
-        border-color: rgb(230, 6, 196);
-        /* Trở lại màu viền ban đầu */
-    }
+  100% {
+    border-color: rgb(230, 6, 196);
+    /* Trở lại màu viền ban đầu */
+  }
 }
