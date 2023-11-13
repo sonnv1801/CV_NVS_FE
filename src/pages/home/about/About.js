@@ -43,9 +43,11 @@ export const About = () => {
       </div>
       <div className="sub-about-sumary md-about-sumary sm-about-sumary">
         <p>
-          With the desire to learn and accumulate useful experiences to become a
+          Perseverance and eager to learn are two words that describe me. With
+          the desire to learn and accumulate useful experiences to become a
           practical software development engineer, bringing many valuable
-          products.
+          products to your company. I am willing to learn new technologies to
+          apply your company's product.
         </p>
       </div>
       <div className="sub-about-contact md-about-contact sm-about-contact">

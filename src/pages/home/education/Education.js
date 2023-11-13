@@ -17,7 +17,7 @@ export const Education = () => {
         </div>
         <div className="infor-education">
           <h5>DONG A UNIVERSITY</h5>
-          <p>GPA: 3.01 (2019 - 2023)</p>
+          <p>GPA: 3.11/4 (2019 - 2023)</p>
           <p>Major: Software Technology</p>
         </div>
       </div>

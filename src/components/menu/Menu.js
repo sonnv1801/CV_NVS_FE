@@ -4,7 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import logo from '../../assets/avatar.png';
+import logo from '../../assets/vs.jpg';
 import Avatar from '@mui/material/Avatar';
 import './style.css';
 import { About } from '../../pages/home/about/About';

@@ -11,6 +11,24 @@ export const Awards = () => {
             <i>
               <EmojiEventsIcon />
             </i>
+            University graduation certificate
+          </li>
+          <li>
+            <i>
+              <EmojiEventsIcon />
+            </i>
+            National defense and security certificate
+          </li>
+          <li>
+            <i>
+              <EmojiEventsIcon />
+            </i>
+            Toeic 600 English Certificate
+          </li>
+          <li>
+            <i>
+              <EmojiEventsIcon />
+            </i>
             Certificate of excellent students 2021 - 2022
           </li>
           <li>

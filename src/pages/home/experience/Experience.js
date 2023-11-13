@@ -7,28 +7,55 @@ export const Experience = () => {
       <h1>Experience</h1>
       <div className="container-exp">
         <div className="row sub-experience-title md-experience-title">
-          <div className="col-xl-6 col-md-12">
-            <h1>
-              TMA Binh Dinh Company
-              <img
-                src="https://images.careerbuilder.vn/employer_folders/lot2/4642/111600tma-logo.png"
-                alt="tma"
-              />
-            </h1>
-            <p>INTERN FULL-STACK</p>
+          <div className="col-xl-8 col-md-12">
+            <h1>Motorcycle spare parts website project</h1>
           </div>
-          <div className="col-xl-6 col-md-12">
-            <h1>December 28, 2022 - March 18, 2023</h1>
+          <div className="col-xl-4 col-md-12">
+            <h1 className="title-float-right">5/2023 - Present</h1>
           </div>
         </div>
         <div className="sub-experience md-experience">
           <p>
-            Internship at TMA Binh Dinh Company for 3 months. Learn some
-            knowledge like Reactjs, Redux, Nodejs, and MongoDB. Use some
-            Material Ui, Bootstrap & Cloudinary libraries. And did a project to
-            sell phones, applying the above knowledge
             <br />
-            <b>Member:</b> 2 <br />
+            <b>Member:</b> 01 <br />
+            <b>Technical</b>: ReactJS, MongoDB, NodeJS <br />
+            <b>Role:</b> Fullstacks <br />
+            <b>Task:</b>
+            <ul>
+              <li>
+                <b> UI:</b> homepage, product details, combo details, cart,
+                payment, invoice, contact, admin page
+              </li>
+              <li>
+                <b>API:</b> product type, product, product combo, user,
+                registration, login
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div className="sub-experience-link">
+          <b>
+            Product link:
+            <a href="https://phutungxemay.vercel.app/">PhuTungXeMay - Shop</a>
+          </b>
+        </div>
+      </div>
+      <div className="container-exp">
+        <div className="row sub-experience-title md-experience-title">
+          <div className="col-xl-4 col-md-12">
+            <h1>TMA Binh Dinh Company</h1>
+            <p>INTERN FULL-STACK</p>
+          </div>
+          <div className="col-xl-8 col-md-12">
+            <h1 className="title-float-right">
+              December 28, 2022 - March 18, 2023
+            </h1>
+          </div>
+        </div>
+        <div className="sub-experience md-experience">
+          <p>
+            <br />
+            <b>Member:</b> 02 <br />
             <b>Technical</b>: ReactJS, MongoDB, NodeJS <br />
             <b>Role:</b> Fullstacks <br />
             <b>Task:</b>
@@ -60,25 +87,33 @@ export const Experience = () => {
       </div>
       <div className="container-exp">
         <div className="row sub-experience-title md-experience-title">
-          <div className="col-xl-6 col-md-12">
-            <h1>
-              FPT Software Company
-              <img
-                src="https://www.fpt-software.com/wp-content/uploads/sites/2/2018/03/logo_white.svg"
-                alt="tma"
-              />
-            </h1>
-            <p>INTERN FRONT-END</p>
+          <div className="col-xl-8 col-md-12">
+            <h1>FPT Software Company</h1>
+            <p>INTERN FULL-STACK</p>
           </div>
-          <div className="col-xl-6 col-md-12">
-            <h1>July 4, 2022 - August 5, 2022</h1>
+          <div className="col-xl-4 col-md-12">
+            <h1 className="title-float-right">
+              July 4, 2022 - November 5, 2022
+            </h1>
           </div>
         </div>
         <div className="sub-experience md-experience">
           <p>
-            Internship at FPT Software company for 1 month. Learn some knowledge
-            like Reactjs, Redux, Nodejs, and Mongoose. Use some Material Ui,
-            Bootstrap & Cloudinary libraries.
+            <br />
+            <b>Member:</b> 04 <br />
+            <b>Technical</b>: Java, SQL server
+            <br />
+            <b>Role:</b> Fullstacks <br />
+            <b>Task:</b>
+            <ul>
+              <li>
+                <b> UI:</b> home page, product details, shopping cart, register,
+                login
+              </li>
+              <li>
+                <b>API:</b> product type, product details, registration, login
+              </li>
+            </ul>
           </p>
         </div>
         <div className="sub-experience-link">
@@ -88,7 +123,9 @@ export const Experience = () => {
           </b>
           <b>
             Link GitHub:
-            <a href="/">Update late</a>
+            <a href="https://github.com/sonnv1801/Shop-Accessory.git">
+              Git Accessory - Shop
+            </a>
           </b>
         </div>
       </div>
