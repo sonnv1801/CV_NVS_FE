@@ -7,6 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 export const About = () => {
   return (
@@ -14,7 +15,7 @@ export const About = () => {
       <div className="sub-about-infor sm-about-infor">
         <div className="infor">
           <h1>Nguyen Van Son</h1>
-          <h2>FRONT - END WEB DEVELOPER</h2>
+          <h2>FRONTEND WEB DEVELOPER</h2>
         </div>
         <ul>
           <li>
@@ -31,6 +32,19 @@ export const About = () => {
             </b>
             <p>
               <a href="mailto:nvs.dev.vn@gmail.com">nvs.dev.vn@gmail.com</a>
+            </p>
+          </li>
+          <li>
+            <b>
+              <PictureAsPdfIcon />
+            </b>
+            <p>
+              <a
+                href="https://drive.google.com/file/d/1I74I_UrlkVg4Y8pbVs-qOAvZZr8COjKY/view?usp=sharing
+"
+              >
+                Link CV Online
+              </a>
             </p>
           </li>
           <li>
