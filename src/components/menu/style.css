@@ -27,9 +27,12 @@
 .menu-cv {
   background: #bd5d38;
 }
+.css-10d9dml-MuiTabs-indicator {
+  background-color: #000000 !important;
+}
 
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
-  color: #ff4800 !important;
+  color: #000000 !important;
 }
 
 .menu-cv .sub-menu-cv {

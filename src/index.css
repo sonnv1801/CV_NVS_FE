@@ -102,6 +102,11 @@
     display: block !important;
   }
 
+  .education .sub-education .infor-education {
+    float: none !important;
+    margin-left: 0 !important;
+  }
+
   .education .sub-education h5 {
     font-size: 1.8rem !important;
   }

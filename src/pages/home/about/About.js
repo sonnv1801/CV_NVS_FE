@@ -39,10 +39,7 @@ export const About = () => {
               <PictureAsPdfIcon />
             </b>
             <p>
-              <a
-                href="https://drive.google.com/file/d/1I74I_UrlkVg4Y8pbVs-qOAvZZr8COjKY/view?usp=sharing
-"
-              >
+              <a href="https://drive.google.com/file/d/1I74I_UrlkVg4Y8pbVs-qOAvZZr8COjKY/view?usp=sharing ">
                 Link CV Online
               </a>
             </p>
